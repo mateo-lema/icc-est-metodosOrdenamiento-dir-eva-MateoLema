@@ -6,7 +6,9 @@ public class App {
         CarController controller= new CarController();
         Car[] carros= makeCarsList();
         controller.sortByName(carros);
-        for(Car carros)
+        for(int i=0;i<carros.length;i++){
+            System.out.println(carros[i]);
+        }
 
     } 
 
